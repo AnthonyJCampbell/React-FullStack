@@ -1,0 +1,36 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background:#03a9f4;
+  color:white;
+  text-align:center;
+}
+.header_title{
+  font-weight:bolder;
+  font-size:2em;
+}
+.header_small{
+  font-size:1em;
+}
+
+.header > input{
+  margin:1em 0;
+  border-radius: .4em;
+  width: 50%;
+  height: 2em;
+}
+.news_item{
+  padding: 10px 5px;
+  border-bottom: 1px solid gray;
+}
+.news_item:hover{
+  color:rebeccapurple
+}
+@media(max-width:500px){
+  .news_item{
+    color:orange
+  }
+}

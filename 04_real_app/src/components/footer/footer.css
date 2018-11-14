@@ -1,0 +1,17 @@
+.footer{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: #2d2d2d;
+}
+
+.logo img{
+  height: 20px;
+  padding: 10px;
+}
+
+.right {
+  flex-glow: 1;
+  color:#878787;
+}

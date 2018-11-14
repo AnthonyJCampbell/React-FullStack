@@ -1,0 +1,33 @@
+.authContainer{
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.authContainer h2{
+  height: 300;
+  text-align: center;
+  font-size: 35px;
+}
+
+.authContainer input{
+  font-size: 17px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px 10px ;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+.authContainer button {
+  background: #03a9f4;
+  font-size: 13px;
+  padding: 10px;
+  color: #fff;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.authContainer .error{
+  color: #ff3f3f;
+}
